@@ -7,7 +7,7 @@ from pathlib import Path
 MESSAGES = (
     "我是 Feynman —— 梦想成为优秀的大模型推理工程师",
     "LLM Inference Optimization",
-    "Transformer | PyTorch | vLLM | CUDA | AscendC",
+    "Transformer | PyTorch | vLLM ",
     "Model → Framework → Hardware → Optimization",
 )
 

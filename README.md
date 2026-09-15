@@ -14,9 +14,9 @@ Transformer · vLLM · AscendC · Qwen3.x · FlashInfer · KV Cache · MTP · Qu
 
 ## 🚀 Products
 
-<p><strong>AI API Platform</strong> <img src="LOGO_URL_1" width="28" height="28" align="middle" alt="AI API Platform"> <a href="https://icodeapi.com/">icodeapi.com</a></p>
+<p><strong>个人token站</strong> <a href="https://icodeapi.com/">icodeapi.com</a></p>
 
-<p><strong>Technology Blog</strong> <img src="LOGO_URL_2" width="28" height="28" align="middle" alt="Technology Blog"> <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a></p>
+<p><strong>个人博客</strong> <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a></p>
 
 ## 📫 Contact
 
