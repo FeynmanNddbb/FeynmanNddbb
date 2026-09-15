@@ -20,7 +20,7 @@ Pytorch · Transformer · vLLM · LLM · KV Cache · functor
 
 ## 📫 Contact
 
-- Bilibili: [我的 B 站主页]([BILIBILI_URL](https://space.bilibili.com/635588114))
+- Bilibili: [我的 B 站主页](https://space.bilibili.com/635588114)
 - WeChat: `TryMyBest2Do`
 
 ---

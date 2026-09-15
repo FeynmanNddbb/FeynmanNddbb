@@ -10,27 +10,29 @@ MESSAGES = (
     "Transformer | PyTorch | vLLM ",
     "Model → Framework → Hardware → Optimization",
 )
+LINE_INTERVAL = 2.5
+DURATION = 10
 
 
 def build_svg() -> str:
     lines = []
     for index, message in enumerate(MESSAGES):
-        begin = index * 4
+        begin = index * LINE_INTERVAL
         lines.append(
             f'''    <g clip-path="url(#typing-clip-{index})" opacity="0">
       <text x="500" y="{42 + index * 38}" text-anchor="middle">{escape(message)}</text>
-      <animate attributeName="opacity" dur="16s" begin="{begin}s" repeatCount="indefinite"
+      <animate attributeName="opacity" dur="{DURATION}s" begin="{begin}s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>'''
         )
 
     clips = []
     for index in range(len(MESSAGES)):
-        begin = index * 4
+        begin = index * LINE_INTERVAL
         clips.append(
             f'''    <clipPath id="typing-clip-{index}">
       <rect x="20" y="{14 + index * 38}" width="0" height="34">
-        <animate attributeName="width" dur="16s" begin="{begin}s" repeatCount="indefinite"
+      <animate attributeName="width" dur="{DURATION}s" begin="{begin}s" repeatCount="indefinite"
           values="0;960;960;0;0" keyTimes="0;.12;.68;.82;1" />
       </rect>
     </clipPath>'''
