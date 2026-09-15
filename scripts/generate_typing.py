@@ -5,8 +5,8 @@ from pathlib import Path
 
 
 MESSAGES = (
-    "我是 Feynman，27届应届硕士生，梦想成为优秀的大模型推理工程师",
-    "大模型推理优化",
+  "我是 Feynman",
+  "Focused on LLM Inference Optimization Research",
     "Transformer | PyTorch | vLLM",
 )
 LINE_INTERVAL = 1.5
@@ -29,7 +29,9 @@ def build_svg() -> str:
         )
         clips.append(
             f'''    <clipPath id="typing-clip-{index}">
-      <rect x="32" y="{40 + index * 42}" width="0" height="38">
+      <rect x="500" y="{40 + index * 42}" width="0" height="38">
+        <animate attributeName="x" dur="{DURATION}s" repeatCount="indefinite"
+          values="500;500;32;32;500;500" keyTimes="{key_times}" />
         <animate attributeName="width" dur="{DURATION}s" repeatCount="indefinite"
           values="0;0;936;936;0;0" keyTimes="{key_times}" />
       </rect>

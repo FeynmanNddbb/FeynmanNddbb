@@ -21,19 +21,25 @@
   <text class="label" x="960" y="22" text-anchor="end">FEYNMAN</text>
   <g>
     <clipPath id="typing-clip-0">
-      <rect x="32" y="40" width="0" height="38">
+      <rect x="500" y="40" width="0" height="38">
+        <animate attributeName="x" dur="8s" repeatCount="indefinite"
+          values="500;500;32;32;500;500" keyTimes="0;0.0000;0.0813;0.8500;0.9500;1" />
         <animate attributeName="width" dur="8s" repeatCount="indefinite"
           values="0;0;936;936;0;0" keyTimes="0;0.0000;0.0813;0.8500;0.9500;1" />
       </rect>
     </clipPath>
     <clipPath id="typing-clip-1">
-      <rect x="32" y="82" width="0" height="38">
+      <rect x="500" y="82" width="0" height="38">
+        <animate attributeName="x" dur="8s" repeatCount="indefinite"
+          values="500;500;32;32;500;500" keyTimes="0;0.1875;0.2687;0.8500;0.9500;1" />
         <animate attributeName="width" dur="8s" repeatCount="indefinite"
           values="0;0;936;936;0;0" keyTimes="0;0.1875;0.2687;0.8500;0.9500;1" />
       </rect>
     </clipPath>
     <clipPath id="typing-clip-2">
-      <rect x="32" y="124" width="0" height="38">
+      <rect x="500" y="124" width="0" height="38">
+        <animate attributeName="x" dur="8s" repeatCount="indefinite"
+          values="500;500;32;32;500;500" keyTimes="0;0.3750;0.4562;0.8500;0.9500;1" />
         <animate attributeName="width" dur="8s" repeatCount="indefinite"
           values="0;0;936;936;0;0" keyTimes="0;0.3750;0.4562;0.8500;0.9500;1" />
       </rect>
@@ -41,12 +47,12 @@
   </g>
   <g>
     <g clip-path="url(#typing-clip-0)" opacity="0">
-      <text class="message" x="500" y="68" text-anchor="middle">我是 Feynman，27届应届硕士生，梦想成为优秀的大模型推理工程师</text>
+      <text class="message" x="500" y="68" text-anchor="middle">我是 Feynman</text>
       <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
         values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0813;0.8500;0.9500;1" />
     </g>
     <g clip-path="url(#typing-clip-1)" opacity="0">
-      <text class="message" x="500" y="110" text-anchor="middle">大模型推理优化</text>
+      <text class="message" x="500" y="110" text-anchor="middle">Focused on LLM Inference Optimization Research</text>
       <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
         values="0;0;1;1;0;0" keyTimes="0;0.1875;0.2687;0.8500;0.9500;1" />
     </g>
