@@ -19,7 +19,7 @@
 <h2 align="center">🚀 Products</h2>
 
 <p align="center">
-	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　<strong>Creator Platform</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　<strong>Blog</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
+	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　✦　<strong>Creator Platform</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　✦　<strong>Blog</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
 </p>
 
 <h2 align="center">📫 Contact</h2>

@@ -19,7 +19,7 @@
 <h2 align="center">🚀 プロダクト</h2>
 
 <p align="center">
-	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　<strong>クリエイタープラットフォーム</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　<strong>ブログ</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
+	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　✦　<strong>クリエイタープラットフォーム</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　✦　<strong>ブログ</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
 </p>
 
 <h2 align="center">📫 連絡先</h2>
