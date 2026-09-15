@@ -44,7 +44,7 @@
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
     <g clip-path="url(#typing-clip-2)" opacity="0">
-      <text x="500" y="118" text-anchor="middle">Transformer | PyTorch | vLLM | CUDA | AscendC</text>
+      <text x="500" y="118" text-anchor="middle">Transformer | PyTorch | vLLM </text>
       <animate attributeName="opacity" dur="16s" begin="8s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
