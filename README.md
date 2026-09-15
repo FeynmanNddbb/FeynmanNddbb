@@ -4,7 +4,7 @@
 
 </div>
 
-<p align="center"><sub>🌐 <strong>中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>　|　顶部介绍自动轮播</sub></p>
+<p align="center"><sub>🌐 <strong>中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></sub></p>
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
@@ -25,7 +25,7 @@
 <h2 align="center">📫 Contact</h2>
 
 <p align="center">
-	B站：<a href="https://space.bilibili.com/635588114">我的 B 站主页</a>　·　WeChat: <code>TryMyBest2Do</code>
+	B站：<a href="https://space.bilibili.com/635588114">我的B站主页</a>　·　WeChat: <code>TryMyBest2Do</code>
 </p>
 
 ---
