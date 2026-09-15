@@ -10,7 +10,10 @@ MESSAGES = (
     "Transformer | PyTorch | vLLM",
 )
 LINE_INTERVAL = 1.5
-DURATION = LINE_INTERVAL * len(MESSAGES)
+DURATION = 8
+TYPE_DURATION = 0.65
+FADE_START = 6.8
+FADE_END = 7.6
 
 
 def build_svg() -> str:
@@ -18,22 +21,27 @@ def build_svg() -> str:
     animated_lines = []
 
     for index, message in enumerate(MESSAGES):
-      begin = index * LINE_INTERVAL
-      clips.append(
-        f'''    <clipPath id="typing-clip-{index}">
-      <rect x="24" y="{40 + index * 42}" width="0" height="38">
-        <animate attributeName="width" dur="{DURATION}s" begin="{begin}s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
+        start = index * LINE_INTERVAL
+        type_end = start + TYPE_DURATION
+        key_times = (
+            f"0;{start / DURATION:.4f};{type_end / DURATION:.4f};"
+            f"{FADE_START / DURATION:.4f};{FADE_END / DURATION:.4f};1"
+        )
+        clips.append(
+            f'''    <clipPath id="typing-clip-{index}">
+      <rect x="32" y="{40 + index * 42}" width="0" height="38">
+        <animate attributeName="width" dur="{DURATION}s" repeatCount="indefinite"
+          values="0;0;936;936;0;0" keyTimes="{key_times}" />
       </rect>
     </clipPath>'''
-      )
-      animated_lines.append(
-        f'''    <g clip-path="url(#typing-clip-{index})" opacity="0">
+        )
+        animated_lines.append(
+            f'''    <g clip-path="url(#typing-clip-{index})" opacity="0">
       <text class="message" x="500" y="{68 + index * 42}" text-anchor="middle">{escape(message)}</text>
-      <animate attributeName="opacity" dur="{DURATION}s" begin="{begin}s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
+      <animate attributeName="opacity" dur="{DURATION}s" repeatCount="indefinite"
+        values="0;0;1;1;0;0" keyTimes="{key_times}" />
     </g>'''
-      )
+        )
 
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
@@ -41,41 +49,28 @@ def build_svg() -> str:
   <desc id="desc">Animated introduction for Feynman's GitHub profile.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f" />
-      <stop offset="0.55" stop-color="#0b1626" />
-      <stop offset="1" stop-color="#071b22" />
+      <stop offset="0" stop-color="#fbfdff" />
+      <stop offset="1" stop-color="#f1f6fb" />
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#54d6c7" stroke-opacity="0.07" />
-    </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-    </filter>
   </defs>
-  <rect width="1000" height="190" rx="14" fill="url(#bg)" />
-  <rect x="1" y="1" width="998" height="188" rx="13" fill="url(#grid)" stroke="#54d6c7" stroke-opacity="0.35" />
-  <path d="M24 32 H976" stroke="#54d6c7" stroke-opacity="0.28" />
-  <circle cx="28" cy="18" r="4" fill="#ff6b6b" />
-  <circle cx="43" cy="18" r="4" fill="#ffd166" />
-  <circle cx="58" cy="18" r="4" fill="#54d6c7" />
+  <rect width="1000" height="190" rx="16" fill="url(#bg)" />
+  <rect x="1" y="1" width="998" height="188" rx="15" fill="none" stroke="#d8e1eb" />
+  <path d="M32 32 H968" stroke="#e5ebf2" />
   <style>
     text {{ font-family: 'JetBrains Mono', 'Noto Sans SC', monospace; }}
-    .label {{ fill: #75e6da; font-size: 11px; font-weight: 700; letter-spacing: 2px; }}
-    .message {{ fill: #f3f8ff; font-size: 25px; font-weight: 600; }}
-    .language-label {{ fill: #54d6c7; font-size: 12px; font-weight: 700; letter-spacing: 1px; }}
+    .label {{ fill: #7b8794; font-size: 11px; font-weight: 700; letter-spacing: 2px; }}
+    .message {{ fill: #17212b; font-size: 25px; font-weight: 600; }}
   </style>
-  <text class="label" x="78" y="22">INFERENCE ENGINEERING / LIVE PROFILE</text>
-  <text class="label" x="970" y="22" text-anchor="end">FEYNMAN_01</text>
-  <path d="M76 166 H160 L172 154 H252" fill="none" stroke="#54d6c7" stroke-opacity="0.45" />
-  <circle cx="252" cy="154" r="3" fill="#54d6c7" filter="url(#glow)" />
+  <circle cx="40" cy="18" r="4" fill="#147efb" />
+  <text class="label" x="54" y="22">LLM INFERENCE / PROFILE</text>
+  <text class="label" x="960" y="22" text-anchor="end">FEYNMAN</text>
   <g>
 {chr(10).join(clips)}
   </g>
   <g>
 {chr(10).join(animated_lines)}
   </g>
-  <text class="label" x="970" y="176" text-anchor="end">MODEL / FRAMEWORK / HARDWARE / OPTIMIZATION</text>
+  <text class="label" x="960" y="176" text-anchor="end">MODEL → FRAMEWORK → HARDWARE → OPTIMIZATION</text>
 </svg>
 '''
 
