@@ -4,7 +4,7 @@
 
 </div>
 
-<p align="center"><sub>🌐 <strong>中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>　|　顶部介绍自动轮播</sub></p>
+<p align="center"><sub>🌐 <a href="README.md">中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a>　|　Animated introduction above</sub></p>
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
@@ -19,7 +19,7 @@
 <h2 align="center">🚀 Products</h2>
 
 <p align="center">
-	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　<strong>创作者平台</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　<strong>Blog</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
+	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　<strong>Creator Platform</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　<strong>Blog</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
 </p>
 
 <h2 align="center">📫 Contact</h2>
