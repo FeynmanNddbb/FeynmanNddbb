@@ -25,16 +25,10 @@
           values="0;960;960;0;0" keyTimes="0;.12;.68;.82;1" />
       </rect>
     </clipPath>
-    <clipPath id="typing-clip-3">
-      <rect x="20" y="128" width="0" height="34">
-      <animate attributeName="width" dur="10s" begin="7.5s" repeatCount="indefinite"
-          values="0;960;960;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
   </g>
   <g>
     <g clip-path="url(#typing-clip-0)" opacity="0">
-      <text x="500" y="42" text-anchor="middle">我是 Feynman —— 梦想成为优秀的大模型推理工程师</text>
+      <text x="500" y="42" text-anchor="middle">我是 Feynman，27届应届硕士生，梦想成为优秀的大模型推理工程师</text>
       <animate attributeName="opacity" dur="10s" begin="0.0s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
@@ -46,11 +40,6 @@
     <g clip-path="url(#typing-clip-2)" opacity="0">
       <text x="500" y="118" text-anchor="middle">Transformer | PyTorch | vLLM </text>
       <animate attributeName="opacity" dur="10s" begin="5.0s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-3)" opacity="0">
-      <text x="500" y="156" text-anchor="middle">Model → Framework → Hardware → Optimization</text>
-      <animate attributeName="opacity" dur="10s" begin="7.5s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
   </g>
