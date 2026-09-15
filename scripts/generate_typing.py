@@ -5,10 +5,9 @@ from pathlib import Path
 
 
 MESSAGES = (
-    "我是 Feynman —— 梦想成为优秀的大模型推理工程师",
+    "我是 Feynman，27届应届硕士生，梦想成为优秀的大模型推理工程师",
     "LLM Inference Optimization",
     "Transformer | PyTorch | vLLM ",
-    "Model → Framework → Hardware → Optimization",
 )
 LINE_INTERVAL = 2.5
 DURATION = 10
