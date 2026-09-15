@@ -4,7 +4,7 @@
 
 </div>
 
-<p align="center"><sub>🌐 <a href="README.md">中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong>　|　上部で紹介文を自動切り替え</sub></p>
+<p align="center"><sub>🌐 <a href="README.md">中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong></sub></p>
 
 <h2 align="center">🛠️ 技術スタック</h2>
 
@@ -19,7 +19,7 @@
 <h2 align="center">🚀 プロダクト</h2>
 
 <p align="center">
-	<strong>AI API Platform</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　✦　<strong>クリエイタープラットフォーム</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　✦　<strong>ブログ</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
+	<strong>APIプラットフォーム</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　✦　<strong>クリエイタープラットフォーム</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　✦　<strong>ブログ</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
 </p>
 
 <h2 align="center">📫 連絡先</h2>

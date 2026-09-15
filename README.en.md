@@ -4,7 +4,7 @@
 
 </div>
 
-<p align="center"><sub>🌐 <a href="README.md">中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a>　|　Animated introduction above</sub></p>
+<p align="center"><sub>🌐 <a href="README.md">中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a></sub></p>
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
