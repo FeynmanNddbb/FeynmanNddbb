@@ -25,7 +25,7 @@
 <h2 align="center">📫 連絡先</h2>
 
 <p align="center">
-	<a href="https://space.bilibili.com/635588114">Bilibili</a>　·　WeChat: <code>TryMyBest2Do</code>
+	Bilibili：<a href="https://space.bilibili.com/635588114">Bilibiliページ</a>　·　WeChat: <code>TryMyBest2Do</code>
 </p>
 
 ---

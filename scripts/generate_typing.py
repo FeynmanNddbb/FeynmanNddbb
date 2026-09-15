@@ -4,63 +4,36 @@ from html import escape
 from pathlib import Path
 
 
-LANGUAGES = (
-  (
-    "中文",
+MESSAGES = (
     "我是 Feynman，27届应届硕士生，梦想成为优秀的大模型推理工程师",
     "大模型推理优化",
     "Transformer | PyTorch | vLLM",
-  ),
-  (
-    "English",
-    "I am Feynman, an aspiring LLM inference engineer",
-    "LLM Inference Optimization",
-    "Transformer | PyTorch | vLLM",
-  ),
-  (
-    "日本語",
-    "Feynmanです。優れたLLM推論エンジニアを目指しています",
-    "LLM推論の最適化",
-    "Transformer | PyTorch | vLLM",
-  ),
 )
 LINE_INTERVAL = 1.5
-LINES_PER_LANGUAGE = 3
-LANGUAGE_GAP = 4
-LANGUAGE_INTERVAL = LINE_INTERVAL * LINES_PER_LANGUAGE + LANGUAGE_GAP
-DURATION = LANGUAGE_INTERVAL * len(LANGUAGES)
+DURATION = LINE_INTERVAL * len(MESSAGES)
 
 
 def build_svg() -> str:
     clips = []
     animated_lines = []
 
-    for language_index, (language, *messages) in enumerate(LANGUAGES):
-        language_begin = language_index * LANGUAGE_INTERVAL
-        animated_lines.append(
-            f'''    <g opacity="0">
-      <text class="language-label" x="78" y="52">{language}</text>
-      <animate attributeName="opacity" dur="{DURATION}s" begin="{language_begin}s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>'''
-        )
-        for line_index, message in enumerate(messages):
-            begin = language_begin + line_index * LINE_INTERVAL
-            clips.append(
-                f'''    <clipPath id="typing-clip-{language_index}-{line_index}">
-      <rect x="24" y="{40 + line_index * 42}" width="0" height="38">
+    for index, message in enumerate(MESSAGES):
+      begin = index * LINE_INTERVAL
+      clips.append(
+        f'''    <clipPath id="typing-clip-{index}">
+      <rect x="24" y="{40 + index * 42}" width="0" height="38">
         <animate attributeName="width" dur="{DURATION}s" begin="{begin}s" repeatCount="indefinite"
           values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
       </rect>
     </clipPath>'''
-            )
-            animated_lines.append(
-                f'''    <g clip-path="url(#typing-clip-{language_index}-{line_index})" opacity="0">
-      <text class="message" x="500" y="{68 + line_index * 42}" text-anchor="middle">{escape(message)}</text>
+      )
+      animated_lines.append(
+        f'''    <g clip-path="url(#typing-clip-{index})" opacity="0">
+      <text class="message" x="500" y="{68 + index * 42}" text-anchor="middle">{escape(message)}</text>
       <animate attributeName="opacity" dur="{DURATION}s" begin="{begin}s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>'''
-            )
+      )
 
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">

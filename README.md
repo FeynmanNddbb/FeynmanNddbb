@@ -25,7 +25,7 @@
 <h2 align="center">📫 Contact</h2>
 
 <p align="center">
-	<a href="https://space.bilibili.com/635588114">Bilibili</a>　·　WeChat: <code>TryMyBest2Do</code>
+	B站：<a href="https://space.bilibili.com/635588114">我的 B 站主页</a>　·　WeChat: <code>TryMyBest2Do</code>
 </p>
 
 ---

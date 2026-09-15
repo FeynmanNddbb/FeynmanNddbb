@@ -33,120 +33,39 @@
   <path d="M76 166 H160 L172 154 H252" fill="none" stroke="#54d6c7" stroke-opacity="0.45" />
   <circle cx="252" cy="154" r="3" fill="#54d6c7" filter="url(#glow)" />
   <g>
-    <clipPath id="typing-clip-0-0">
+    <clipPath id="typing-clip-0">
       <rect x="24" y="40" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="0.0s" repeatCount="indefinite"
+        <animate attributeName="width" dur="4.5s" begin="0.0s" repeatCount="indefinite"
           values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
       </rect>
     </clipPath>
-    <clipPath id="typing-clip-0-1">
+    <clipPath id="typing-clip-1">
       <rect x="24" y="82" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="1.5s" repeatCount="indefinite"
+        <animate attributeName="width" dur="4.5s" begin="1.5s" repeatCount="indefinite"
           values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
       </rect>
     </clipPath>
-    <clipPath id="typing-clip-0-2">
+    <clipPath id="typing-clip-2">
       <rect x="24" y="124" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="3.0s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="typing-clip-1-0">
-      <rect x="24" y="40" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="8.5s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="typing-clip-1-1">
-      <rect x="24" y="82" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="10.0s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="typing-clip-1-2">
-      <rect x="24" y="124" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="11.5s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="typing-clip-2-0">
-      <rect x="24" y="40" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="17.0s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="typing-clip-2-1">
-      <rect x="24" y="82" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="18.5s" repeatCount="indefinite"
-          values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="typing-clip-2-2">
-      <rect x="24" y="124" width="0" height="38">
-        <animate attributeName="width" dur="25.5s" begin="20.0s" repeatCount="indefinite"
+        <animate attributeName="width" dur="4.5s" begin="3.0s" repeatCount="indefinite"
           values="0;952;952;0;0" keyTimes="0;.12;.68;.82;1" />
       </rect>
     </clipPath>
   </g>
   <g>
-    <g opacity="0">
-      <text class="language-label" x="78" y="52">中文</text>
-      <animate attributeName="opacity" dur="25.5s" begin="0.0s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-0-0)" opacity="0">
+    <g clip-path="url(#typing-clip-0)" opacity="0">
       <text class="message" x="500" y="68" text-anchor="middle">我是 Feynman，27届应届硕士生，梦想成为优秀的大模型推理工程师</text>
-      <animate attributeName="opacity" dur="25.5s" begin="0.0s" repeatCount="indefinite"
+      <animate attributeName="opacity" dur="4.5s" begin="0.0s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
-    <g clip-path="url(#typing-clip-0-1)" opacity="0">
+    <g clip-path="url(#typing-clip-1)" opacity="0">
       <text class="message" x="500" y="110" text-anchor="middle">大模型推理优化</text>
-      <animate attributeName="opacity" dur="25.5s" begin="1.5s" repeatCount="indefinite"
+      <animate attributeName="opacity" dur="4.5s" begin="1.5s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
-    <g clip-path="url(#typing-clip-0-2)" opacity="0">
+    <g clip-path="url(#typing-clip-2)" opacity="0">
       <text class="message" x="500" y="152" text-anchor="middle">Transformer | PyTorch | vLLM</text>
-      <animate attributeName="opacity" dur="25.5s" begin="3.0s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g opacity="0">
-      <text class="language-label" x="78" y="52">English</text>
-      <animate attributeName="opacity" dur="25.5s" begin="8.5s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-1-0)" opacity="0">
-      <text class="message" x="500" y="68" text-anchor="middle">I am Feynman, an aspiring LLM inference engineer</text>
-      <animate attributeName="opacity" dur="25.5s" begin="8.5s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-1-1)" opacity="0">
-      <text class="message" x="500" y="110" text-anchor="middle">LLM Inference Optimization</text>
-      <animate attributeName="opacity" dur="25.5s" begin="10.0s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-1-2)" opacity="0">
-      <text class="message" x="500" y="152" text-anchor="middle">Transformer | PyTorch | vLLM</text>
-      <animate attributeName="opacity" dur="25.5s" begin="11.5s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g opacity="0">
-      <text class="language-label" x="78" y="52">日本語</text>
-      <animate attributeName="opacity" dur="25.5s" begin="17.0s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-2-0)" opacity="0">
-      <text class="message" x="500" y="68" text-anchor="middle">Feynmanです。優れたLLM推論エンジニアを目指しています</text>
-      <animate attributeName="opacity" dur="25.5s" begin="17.0s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-2-1)" opacity="0">
-      <text class="message" x="500" y="110" text-anchor="middle">LLM推論の最適化</text>
-      <animate attributeName="opacity" dur="25.5s" begin="18.5s" repeatCount="indefinite"
-        values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
-    </g>
-    <g clip-path="url(#typing-clip-2-2)" opacity="0">
-      <text class="message" x="500" y="152" text-anchor="middle">Transformer | PyTorch | vLLM</text>
-      <animate attributeName="opacity" dur="25.5s" begin="20.0s" repeatCount="indefinite"
+      <animate attributeName="opacity" dur="4.5s" begin="3.0s" repeatCount="indefinite"
         values="0;1;1;0;0" keyTimes="0;.12;.68;.82;1" />
     </g>
   </g>
