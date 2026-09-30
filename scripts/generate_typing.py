@@ -5,9 +5,9 @@ from pathlib import Path
 
 
 MESSAGES = (
-  "我是 Feynman",
-  "Focused on LLM Inference Optimization Research",
-    "Transformer | PyTorch | vLLM",
+  "Artificial Intelligence in Industry",
+  "Industrial AI in Production",
+  "LLM | vLLM | Agent",
 )
 LINE_INTERVAL = 1.5
 DURATION = 8
@@ -66,8 +66,8 @@ def build_svg() -> str:
 
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
-  <title id="title">Feynman - LLM Inference Engineer</title>
-  <desc id="desc">Animated introduction for Feynman's GitHub profile.</desc>
+  <title id="title">Feynman - Industrial AI</title>
+  <desc id="desc">Artificial intelligence applied to industrial production.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f" />
@@ -87,7 +87,7 @@ def build_svg() -> str:
     @keyframes pulse {{ 0%, 100% {{ opacity: 0.12; }} 50% {{ opacity: 0.7; }} }}
   </style>
   <circle cx="40" cy="18" r="4" fill="#49c6ff" />
-  <text class="label" x="54" y="22">LLM INFERENCE / PROFILE</text>
+  <text class="label" x="54" y="22">INDUSTRIAL AI / PROFILE</text>
   <text class="label" x="960" y="22" text-anchor="end">FEYNMAN</text>
   <g>
 {chr(10).join(clips)}
@@ -95,7 +95,7 @@ def build_svg() -> str:
   <g>
 {chr(10).join(animated_lines)}
   </g>
-  <text class="label" x="960" y="176" text-anchor="end">MODEL → FRAMEWORK → HARDWARE → OPTIMIZATION</text>
+  <text class="label" x="960" y="176" text-anchor="end">RESEARCH → ENGINEERING → PRODUCTION</text>
 </svg>
 '''
 
