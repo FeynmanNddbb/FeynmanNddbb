@@ -1,28 +1,37 @@
-<p align="right">Feynman GitHub Profile</p>
+﻿<div align="center">
 
-<h1 align="center">Hi, I'm Feynman</h1>
+<img src="./assets/typing.svg" width="900" alt="Feynman Introduction">
 
-<h3 align="center">Chemical Engineering AI | LLM and Agent Systems | Intelligent Manufacturing</h3>
+</div>
 
-<p align="center"><a href="README.md">Main Profile</a> | <a href="README.en.md">English</a> | <strong>Japanese</strong></p>
+<p align="center"><sub>🌐 <a href="README.md">中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong></sub></p>
 
-<p align="center"><img src="./assets/typing.svg" alt="Chemical engineering AI and intelligent manufacturing" width="100%" /></p>
+<h2 align="center">🛠️ 技術スタック</h2>
+
+<p align="center">
+	<img src="https://skillicons.dev/icons?i=python,pytorch,linux,cpp,docker,git,cuda&perline=7" alt="Python, PyTorch, Linux, C++, Docker, Git, CUDA">
+</p>
+
+<p align="center">
+	<code>Transformer</code> · <code>vLLM</code> · <code>LLM</code> · <code>KV Cache</code> · <code>FlashInfer</code> · <code>Quantization</code> · <code>CUDA Graph</code>
+</p>
+
+<h2 align="center">🚀 プロダクト</h2>
+
+<p align="center">
+	<strong>APIプラットフォーム</strong> · <a href="https://icodeapi.com/">icodeapi.com</a>　✦　<strong>クリエイタープラットフォーム</strong> · <a href="https://work.icodeapi.com/">work.icodeapi.com</a>　✦　<strong>ブログ</strong> · <a href="https://blog.lovecode.xin/">blog.lovecode.xin</a>
+</p>
+
+<h2 align="center">📫 連絡先</h2>
+
+<p align="center">
+	Bilibili：<a href="https://space.bilibili.com/635588114">Bilibiliページ</a>　·　WeChat: <code>TryMyBest2Do</code>
+</p>
 
 ---
 
-## About Me
+<div align="center">
 
-I am Feynman, focused on chemical engineering intelligent systems.
+**Model → Framework → Hardware → Optimization → Production**
 
-My work brings AI, large language models, agents, and industrial software engineering into chemical and process manufacturing. I build deployable systems that connect industrial data, domain knowledge, workflows, and operational decisions.
-
-## Research Interests
-
-- AI and intelligent systems for chemical and process manufacturing
-- LLM adaptation and inference for industrial applications
-- Agent and RAG systems grounded in process knowledge and operational data
-- Reliable deployment of AI in manufacturing workflows
-
----
-
-<p align="center"><b>From industrial data to intelligent decisions, building AI systems that work in production.</b></p>
+</div>
