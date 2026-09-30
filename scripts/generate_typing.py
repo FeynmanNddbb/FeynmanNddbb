@@ -5,9 +5,9 @@ from pathlib import Path
 
 
 MESSAGES = (
-    "I am Feynman",
-    "Chemical Engineering AI Systems",
-    "LLM | Agent | Intelligent Manufacturing",
+    "PyTorch | LoRA",
+    "vLLM | Agent",
+    "RAG | Chemical Engineering AI",
 )
 LINE_INTERVAL = 1.5
 DURATION = 8
