@@ -71,7 +71,7 @@
         values="0;0;1;1;0;0" keyTimes="0;0.1875;0.2687;0.8500;0.9500;1" />
     </g>
     <g clip-path="url(#typing-clip-2)" opacity="0">
-      <text class="message" x="500" y="152" text-anchor="middle">LLM | vLLM | Agent</text>
+      <text class="message" x="500" y="152" text-anchor="middle">LLM | vLLM | Agent | RAG</text>
       <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
         values="0;0;1;1;0;0" keyTimes="0;0.3750;0.4562;0.8500;0.9500;1" />
     </g>

@@ -7,7 +7,7 @@ from pathlib import Path
 MESSAGES = (
   "Artificial Intelligence in Industry",
   "Industrial AI in Production",
-  "LLM | vLLM | Agent",
+  "LLM | vLLM | Agent | RAG",
 )
 LINE_INTERVAL = 1.5
 DURATION = 8
