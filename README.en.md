@@ -9,11 +9,11 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
-	<img src="https://skillicons.dev/icons?i=python,pytorch,linux,cpp,docker,git,cuda&perline=7" alt="Python, PyTorch, Linux, C++, Docker, Git, CUDA">
+	<img src="https://skillicons.dev/icons?i=python,pytorch,linux,cpp,docker,git&perline=6" alt="Python, PyTorch, Linux, C++, Docker, Git">
 </p>
 
 <p align="center">
-	<code>Transformer</code> · <code>vLLM</code> · <code>LLM</code> · <code>KV Cache</code> · <code>FlashInfer</code> · <code>Quantization</code> · <code>CUDA Graph</code>
+	<code>vLLM</code> · <code>LLM</code> · <code>Agent</code> · <code>RAG</code> · <code>KV Cache</code> · <code>FlashInfer</code>
 </p>
 
 <h2 align="center">🚀 Products</h2>
